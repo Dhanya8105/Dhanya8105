@@ -1,45 +1,45 @@
 <div align="center">
 
-<img src="./ascii.svg" width="460" alt="Andrii Drok"/>
+<img src="./ascii.svg" width="460" alt="Dhanya S"/>
 
-<img src="./stats.svg" width="620" alt="Contributions in the last year"/>
+<img src="./stats.svg" width="620" alt="GitHub contributions"/>
 
-[andriidrok.com](https://andriidrok.com) &nbsp;·&nbsp;
-[instagram](https://www.instagram.com/andrii_drok/) &nbsp;·&nbsp;
-[linkedin](https://www.linkedin.com/in/andriidrok/) &nbsp;·&nbsp;
-[email](mailto:clb@mirasvit.com)
+[GitHub](https://github.com/Dhanya8105) &nbsp;·&nbsp;
+[LinkedIn](https://www.linkedin.com/in/dhanyas8105) &nbsp;·&nbsp;
+[email](mailto:dhanya.81005@gmail.com)
 
 </div>
 
 <img src="./hd-about.svg" width="620" alt="about"/>
 
-> CS student at San Francisco State, in the SF Bay Area.<br>
-> Small, sharp tools over big vague ideas.
+> Computer Science undergraduate at JSS Science and Technology University, Mysuru.<br>
+> Building at the intersection of AI, software engineering, and intelligent systems.
 
-I build fast, test on real users, and kill what doesn't work. Right now that's<br>
-[autobroll](https://github.com/andriidrok1/autobroll) — an AI short-form video editor that runs in the browser. Also<br>
-deep into markets: Pine Script indicators, backtesting, on-chain data.
+I enjoy turning ideas into working systems — from AI/ML and NLP applications to
+backend services and low-level systems. I'm currently exploring LLMs, RAG,
+multi-agent systems, and software engineering.
 
 <img src="./hd-stack.svg" width="620" alt="stack"/>
 
-<samp>python &nbsp; typescript &nbsp; javascript &nbsp; react &nbsp; node &nbsp; three.js &nbsp; fastapi &nbsp; postgres &nbsp; docker &nbsp; git &nbsp; linux</samp>
+<samp>python &nbsp; java &nbsp; c &nbsp; javascript &nbsp; typescript &nbsp; react &nbsp; fastapi &nbsp; flask &nbsp; node &nbsp; mysql &nbsp; git &nbsp; linux</samp>
 
 <img src="./hd-projects.svg" width="620" alt="projects"/>
 
-**[autobroll](https://github.com/andriidrok1/autobroll)** &nbsp;·&nbsp; <samp>typescript, remotion</samp><br>
-AI short-form video editor in the browser. Auto captions with accents,<br>
-drag-and-retime editing, b-roll placement: transcript in, rendered video out.
+**[AgroInsight](https://github.com/Dhanya8105/agroinsight)** &nbsp;·&nbsp; <samp>python, flask, react, mysql, machine learning</samp><br>
+AI-driven crop recommendation system with explainable AI using Random Forest,
+SHAP and LIME, with weather and rainfall data integration.
 
-**[strategy-checker](https://github.com/andriidrok1/strategy-checker)** &nbsp;·&nbsp; <samp>python</samp><br>
-Describe a trading strategy in plain English, get a real backtest with<br>
-statistical validation. Exposes curve-fitting, not alpha.
+**[GhibliOS](https://github.com/Dhanya8105/GhibliOS)** &nbsp;·&nbsp; <samp>c, assembly, makefile, os</samp><br>
+A custom operating-system project exploring boot processes, low-level programming,
+kernel development, and system fundamentals.
 
-**[compound](https://github.com/andriidrok1/compound)** &nbsp;·&nbsp; <samp>typescript, convex</samp><br>
-Autonomous research agent for your second brain. Built solo at Nozomio<br>
-Hackathon, EF SF.
+**[Pawball Chronicles](https://github.com/Dhanya8105/pawball-chronicles)** &nbsp;·&nbsp; <samp>javascript, react, node</samp><br>
+A full-stack interactive application inspired by Pokémon GO, built around
+collecting and exploring cat characters.
 
-**[andriidrok.com](https://andriidrok.com)** &nbsp;·&nbsp; <samp>three.js, webgl</samp><br>
-Particle-morph portfolio: thousands of particles reshaping between scenes.
+**[AI Ticket Creation & Categorization](https://github.com/Dhanya8105/ai-ticket-creation-and-categorization)** &nbsp;·&nbsp; <samp>python, nlp, spacy, svm</samp><br>
+NLP-based ticket classification and automated ticket creation using TF-IDF,
+SVM and named-entity recognition.
 
 <img src="./hd-stats.svg" width="620" alt="stats"/>
 
@@ -47,29 +47,18 @@ Particle-morph portfolio: thousands of particles reshaping between scenes.
 
 <img src="./streak.svg" width="620" alt="Current and longest streak"/>
 
-<img src="./langs.svg" width="620" alt="Top languages by bytes and by repo"/>
+<img src="./langs.svg" width="620" alt="Top languages by bytes and by repository"/>
 
-<img src="./year.svg" width="620" alt="The last year, one character per day"/>
+<img src="./year.svg" width="620" alt="GitHub activity over the last year"/>
 
 </div>
 
 <img src="./hd-about-this-page.svg" width="620" alt="about this page"/>
 
-Every graphic here is generated, not embedded from anyone else's server.<br>
-`ascii.svg` is a photo pushed through a character ramp by<br>
-[`scripts/make_portrait.py`](scripts/make_portrait.py); the stat graphics and<br>
-these section headings are drawn by [a scheduled action](.github/workflows/stats.yml)<br>
-straight from the GitHub GraphQL API, once a day, committing only what changed.
+This profile is built around generated SVG graphics rather than external
+profile-stat services. The statistics are generated from the GitHub API by a
+scheduled GitHub Action and updated only when the generated files change.
 
-They animate with SMIL inside the SVG, because GitHub strips scripts from<br>
-READMEs — and since nothing loads from a third party, nothing here can<br>
-rate-limit or go dark. The headings are SVGs for the same reason: GitHub also<br>
-strips CSS, so an image is the only way to put this page's own typeface on them.
+The portrait and graphics use the same visual language, with animated SVG
+elements designed to work within GitHub README restrictions.
 
-The typeface is [JetBrains Mono](scripts/fonts), subset to just the characters<br>
-each graphic draws and inlined as base64. That isn't only for looks: the<br>
-portrait's grid assumes an advance width of exactly 0.600 em, and a viewer whose<br>
-default monospace is narrower would otherwise see it squeezed.
-
-Language totals cover public repositories only. `year.svg` uses the portrait's<br>
-character ramp: `:` `+` `#` `@`, quiet to loud.

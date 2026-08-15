@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+	#!/usr/bin/env python3
 """Draw the profile README's stat graphics from the GitHub GraphQL API.
 
 No third-party services and no dependencies — standard library only.
@@ -13,9 +13,9 @@ Every file uses the portrait's grey ink, a monospace face, a transparent
 background, and the same left-to-right clipPath reveal with a cursor riding
 the edge. Motion is SMIL because GitHub strips <script> from READMEs.
 
-Env:
+Env:	
   GITHUB_TOKEN  required
-  GH_LOGIN      user to summarise (default: andriidrok1)
+  GH_LOGIN      user to summarise
   OUT_DIR       where to write (default: repository root)
 """
 import base64
@@ -461,7 +461,7 @@ def main():
     token = os.environ.get("GITHUB_TOKEN")
     if not token:
         sys.exit("GITHUB_TOKEN is not set")
-    login = os.environ.get("GH_LOGIN", "andriidrok1")
+    login = os.environ.get("GH_LOGIN")
     out_dir = os.environ.get("OUT_DIR", ".")
 
     s = summarise(fetch(login, token))
